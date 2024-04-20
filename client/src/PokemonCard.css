@@ -1,0 +1,86 @@
+/* PokemonCard.css */
+.pokemon-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .pokemon-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .pokemon-image {  
+    width: 50%;
+    height: auto;
+  }
+  
+  .pokemon-info {
+    margin-top: 10px;
+  }
+  
+  .pokemon-number {
+    color: #777;
+    font-size: 20px;
+  }
+  
+  .pokemon-name {
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .pokemon-types {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pokemon-type {
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #fff;
+    margin: 0 5px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Example colors for the types, you can add more and adjust the colors */
+  .pokemon-type-button.grass { background-color: #78C850; }
+  .pokemon-type-button.poison { background-color: #A040A0; }
+  .pokemon-type-button.ice { background-color: #66ccff; }
+  .pokemon-type-button.fire { background-color: #F08030; }
+  .pokemon-type-button.electric { background-color: #ffcc33; }
+  .pokemon-type-button.water { background-color: #6890F0; }
+  .pokemon-type-button.fighting { background-color: #bb5544; }
+  .pokemon-type-button.ground { background-color: #ddbb55; }
+  .pokemon-type-button.flying { background-color: #8899ff; }
+  .pokemon-type-button.psychic { background-color: #ff5599; }
+  .pokemon-type-button.bug { background-color: #aabb22; }
+  .pokemon-type-button.rock { background-color: #bbaa66; }
+  .pokemon-type-button.ghost { background-color: #6666bb; }
+  .pokemon-type-button.dragon { background-color: #7766ee; }
+  .pokemon-type-button.dark { background-color: #775544; }
+  .pokemon-type-button.steel { background-color: #aaaabb; }
+  .pokemon-type-button.fairy { background-color: #ee99ee; }
+  
+
+  /* Add additional type styles as needed */
+  .pokemon-type-button {
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:purple; /* Default background, types will overwrite */
+    color: white;
+    text-transform: capitalize;
+  }
+  
+
+  
